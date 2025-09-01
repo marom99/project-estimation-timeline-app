@@ -1,0 +1,13 @@
+{
+  "name": "project-estimation-timeline-app",
+  "version": "1.0.0",
+  "description": "A bilingual (ID/EN) project estimation and scheduling app for Indonesian project managers, featuring accurate timelines, overtime projections, compliance with Indonesian labor regulations, and clear stakeholder communication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/scheduler.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

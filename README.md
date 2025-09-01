@@ -42,7 +42,11 @@ For complete technical specifications, user stories, acceptance criteria, and im
 
 ## Getting Started
 
-*Coming soon - Development roadmap and setup instructions will be added as the project progresses.*
+To run the sample scheduling engine tests:
+
+```bash
+npm test
+```
 
 ## Contributing
 
