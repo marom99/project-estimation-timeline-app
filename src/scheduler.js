@@ -50,4 +50,9 @@ function scheduleTasks(tasks, startDate, hoursPerDay=8){
   return scheduled;
 }
 
-module.exports = { scheduleTasks, addWorkingDays, nextWorkingDay };
+// Support both Node.js and browser environments
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { scheduleTasks, addWorkingDays, nextWorkingDay };
+} else {
+  window.scheduler = { scheduleTasks, addWorkingDays, nextWorkingDay };
+}
